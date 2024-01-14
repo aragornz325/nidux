@@ -21,7 +21,7 @@ export default function PostCard({
   content: string
 }) {
   return (
-    <Card className="shadow-none bg-transparent hover:bg-slate-800 transition border-b rounded-none cursor-pointer border-white/20">
+    <Card className="shadow-none bg-transparent hover:bg-slate-800 transition border-b rounded-none cursor-pointer border-white">
       <CardHeader className="justify-between">
         <div className="flex gap-x-2">
           <a href={`/${user_name}`}>
